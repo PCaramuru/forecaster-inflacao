@@ -18,13 +18,13 @@ Para os scripts estatísticos disponibilizados para o RStudio, convém executar 
 COMO FUNCIONA
 
 1. A aplicação confere se as tabelas já existem dentro do caminho especificado. Caso já existam, a aplicação pula para o passo 3b. Caso não existam, a aplicação cria o cabeçalho necessário para os dados e começa a buscar as divulgações anteriores.
-	a. A tabela master_IPCA.csv reúne as informações de cada um dos subitens, itens, subgrupos, grupos e índice geral divididos por tipo, nome, categoria a que pertecem, e id - usado como identificador único.
-	b. Já a tabela IPCA_long.csv é responsável por reunir os resultados da variação mensal e do peso para cálculo da média ponderada de cada item pesquisado em determinado mês. Cada linha da tabela IPCA_long.csv tem usa como identificador único o par de colunas "id" e "mês de referência".
+   a. A tabela master_IPCA.csv reúne as informações de cada um dos subitens, itens, subgrupos, grupos e índice geral divididos por tipo, nome, categoria a que pertecem, e id - usado como identificador único.
+   b. Já a tabela IPCA_long.csv é responsável por reunir os resultados da variação mensal e do peso para cálculo da média ponderada de cada item pesquisado em determinado mês. Cada linha da tabela IPCA_long.csv tem usa como identificador único o par de colunas "id" e "mês de referência".
 
-2. A primeira a ser incluida é a série 2938, de jul/2006 a dez/2011, e, na sequência, a série 1419, de jan/2012 a dez/2019. Os dados são incluídos no banco de dados em formato de painel longo a fim de garantir a sua utilização tanto em programas de datavis (como PowerBI e Flourish), quanto de análise estatística (RStudio).
+3. A primeira a ser incluida é a série 2938, de jul/2006 a dez/2011, e, na sequência, a série 1419, de jan/2012 a dez/2019. Os dados são incluídos no banco de dados em formato de painel longo a fim de garantir a sua utilização tanto em programas de datavis (como PowerBI e Flourish), quanto de análise estatística (RStudio).
 
-3. Na sequência a aplicação se debruça sobre a série 7060, pesquisa atualmente em curso.
+4. Na sequência a aplicação se debruça sobre a série 7060, pesquisa atualmente em curso.
 	a. A fim de acessar somente os dados faltantes necessários, a aplicação realiza um novo acesso à API de calendário de divulgação de pesquisas para de computar quais divulgações feitas não estão presentes no banco de dados. As informações do calendário são salvas em um arquivo auxiliar (./tabelas/temps/calendario_ipca.csv)
 	b. A aplicação gera uma lista de meses faltantes e itera cada um deles para acessar a respectiva query URL.
 
-4. Os dados obtidos são acrescentados ao fim da tabela IPCA_long.csv. Ao longo do código, novos ids são acrescentados à tabela master_IPCA.csv.
+5. Os dados obtidos são acrescentados ao fim da tabela IPCA_long.csv. Ao longo do código, novos ids são acrescentados à tabela master_IPCA.csv.
