@@ -4,73 +4,100 @@ id;tipo;categoria;nome
 11;SG;1;Alimentação no domicílio
 1101;II;1;Cereais, leguminosas e oleaginosas
 1101002;SI;1;Arroz
+1101021;SI;1;Coco-da-baía
+1101049;SI;1;Feijão - manteiga
 1101051;SI;1;Feijão - mulatinho
 1101052;SI;1;Feijão - preto
-1101053;SI;1;Feijão - macassar (fradinho)
-1101073;SI;1;Feijão - carioca (rajado))
-1101084;SI;1;Fava
-1102;II;1;Farinhas, féculas e massas
-1102001;SI;1;Farinha de arroz
+1101053;SI;1;Feijão - macassar
+1101056;SI;1;Coco - açaí
+1101064;SI;1;Feijão - jalo (enxofrão)
+1101068;SI;1;Feijão - roxo
+1101069;SI;1;Feijão - rapé
+1101073;SI;1;Feijão - rajado
+1101079;SI;1;Milho
+1102;II;1;Farinha, féculas e massas
 1102006;SI;1;Macarrão
 1102008;SI;1;Fubá de milho
+1102009;SI;1;Maizena
 1102012;SI;1;Farinha de trigo
 1102013;SI;1;Farinha vitaminada
+1102016;SI;1;Flocos de cereais
+1102022;SI;1;Fécula de mandioca
 1102023;SI;1;Farinha de mandioca
-1102029;SI;1;Massa semipreparada
+1102038;SI;1;Massa para pizza
+1102040;SI;1;Massa para pastel
+1102058;SI;1;Mistura para bolo
 1103;II;1;Tubérculos, raízes e legumes
+1103002;SI;1;Batata-doce
 1103003;SI;1;Batata-inglesa
 1103004;SI;1;Inhame
 1103005;SI;1;Mandioca (aipim)
 1103017;SI;1;Abóbora
+1103020;SI;1;Abobrinha
 1103021;SI;1;Chuchu
+1103025;SI;1;Pepino
 1103026;SI;1;Pimentão
 1103027;SI;1;Quiabo
 1103028;SI;1;Tomate
+1103029;SI;1;Vagem
+1103031;SI;1;Berinjela
+1103033;SI;1;Moranga
+1103042;SI;1;Beterraba
 1103043;SI;1;Cebola
 1103044;SI;1;Cenoura
 1104;II;1;Açúcares e derivados
 1104003;SI;1;Açúcar refinado
 1104004;SI;1;Açúcar cristal
-1104023;SI;1;Chocolate em barra e bombom
-1104028;SI;1;Gelatina
-1104032;SI;1;Sorvete
-1104052;SI;1;Chocolate e achocolatado em pó
-1104060;SI;1;Doce de frutas em pasta
+1104018;SI;1;Balas, chicletes
+1104023;SI;1;Chocolate em barra
+1104024;SI;1;Bombons
+1104032;SI;1;Sorvetes
+1104052;SI;1;Chocolate em pó
+1104060;SI;1;Doce de frutas
 1104066;SI;1;Doce de leite
+1104096;SI;1;Schimier de frutas
 1105;II;1;Hortaliças e verduras
 1105001;SI;1;Alface
+1105003;SI;1;Chicória
 1105004;SI;1;Coentro
 1105005;SI;1;Couve
 1105006;SI;1;Couve-flor
+1105007;SI;1;Espinafre
 1105010;SI;1;Repolho
 1105012;SI;1;Cheiro-verde
+1105013;SI;1;Agrião
+1105017;SI;1;Almeirão
 1105019;SI;1;Brócolis
+1105021;SI;1;Caruru
 1106;II;1;Frutas
 1106001;SI;1;Banana-da-terra
 1106003;SI;1;Abacaxi
-1106005;SI;1;Banana - d'água
-1106006;SI;1;Banana - maçã
-1106008;SI;1;Banana - prata
+1106004;SI;1;Abacate
+1106005;SI;1;Banana-d'água
+1106006;SI;1;Banana-maçã
+1106008;SI;1;Banana-prata
+1106011;SI;1;Laranja-da-baía
+1106012;SI;1;Laranja lima
+1106013;SI;1;Laranja seleta
 1106015;SI;1;Limão
 1106017;SI;1;Maçã
 1106018;SI;1;Mamão
-1106019;SI;1;Manga
 1106020;SI;1;Maracujá
 1106021;SI;1;Melancia
 1106022;SI;1;Melão
 1106023;SI;1;Pera
 1106027;SI;1;Tangerina
 1106028;SI;1;Uva
-1106034;SI;1;Ameixa
-1106039;SI;1;Laranja - pera
-1106084;SI;1;Goiaba
-1107;II;1;Carnes
+1106039;SI;1;Laranja pera
+1107;II;1;Carnes frescas e vísceras
+1107008;SI;1;Vísceras de boi
 1107009;SI;1;Fígado
-1107010;SI;1;Outras vísceras
 1107018;SI;1;Carne de porco
-1107084;SI;1;Contrafilé
-1107085;SI;1;Filé-mignon
-1107087;SI;1;Chã de dentro
+1107031;SI;1;Carne de carneiro
+1107039;SI;1;Pé, mocotó, rabada
+1107084;SI;1;Contra filé
+1107085;SI;1;Filé mignon
+1107087;SI;1;Chã-de-dentro
 1107088;SI;1;Alcatra
 1107089;SI;1;Patinho
 1107090;SI;1;Lagarto redondo
@@ -79,119 +106,583 @@ id;tipo;categoria;nome
 1107094;SI;1;Pá
 1107095;SI;1;Acém
 1107096;SI;1;Peito
-1107097;SI;1;Capa de filé
+1107097;SI;1;Capa-de-filé
 1107099;SI;1;Costela
-1108;II;1;Pescados
-1108002;SI;1;Peixe - anchova
-1108004;SI;1;Peixe - corvina
-1108006;SI;1;Peixe
-1108009;SI;1;Peixe - pescadinha
-1108011;SI;1;Peixe - tainha
-1108012;SI;1;Peixe - sardinha
+1108;II;1;Pescado
+1108001;SI;1;Filé de peixe
+1108002;SI;1;Peixe anchova
+1108003;SI;1;Peixe badejo
+1108004;SI;1;Peixe corvina
+1108005;SI;1;Peixe cavalinha
+1108008;SI;1;Peixe namorado
+1108009;SI;1;Peixe pescadinha
+1108011;SI;1;Peixe tainha
+1108012;SI;1;Peixe sardinha
 1108013;SI;1;Camarão
-1108015;SI;1;Peixe - vermelho
-1108019;SI;1;Peixe - cavala
-1108025;SI;1;Peixe - linguado
-1108029;SI;1;Peixe - cação
-1108031;SI;1;Peixe - merluza
-1108032;SI;1;Peixe - serra
-1108033;SI;1;Peixe - pargo
-1108038;SI;1;Peixe - pescada
+1108015;SI;1;Peixe vermelho
+1108019;SI;1;Peixe cavala
+1108020;SI;1;Peixe cocoroca
+1108023;SI;1;Peixe atum
+1108028;SI;1;Peixe dourado
+1108029;SI;1;Peixe cação
+1108030;SI;1;Peixe olho-de-boi
+1108031;SI;1;Peixe merluza
+1108032;SI;1;Peixe serra
+1108033;SI;1;Peixe pargo
+1108038;SI;1;Peixe pescada
+1108044;SI;1;Peixe cioba
 1108045;SI;1;Caranguejo
-1108053;SI;1;Peixe - piramutaba
-1108076;SI;1;Peixe - acará
-1108088;SI;1;Peixe - dourada
+1108047;SI;1;Peixe arraia
+1108050;SI;1;Peixe pratiqueira
+1108051;SI;1;Peixe traíra
+1108053;SI;1;Peixe piramutaba
+1108057;SI;1;Peixe surubim
+1108059;SI;1;Peixe xaréu
+1108064;SI;1;Siri
+1108069;SI;1;Peixe guarajuba
+1108076;SI;1;Peixe acará
+1108088;SI;1;Peixe dourada
+1108092;SI;1;Peixe filhote
+1108093;SI;1;Camarão-d'água-doce
+1108099;SI;1;Mariscos
 1109;II;1;Carnes e peixes industrializados
 1109002;SI;1;Presunto
 1109007;SI;1;Salsicha e salsichão
 1109008;SI;1;Linguiça
-1109010;SI;1;Mortadela
+1109010;SI;1;Mortadela, salame, salaminho
 1109023;SI;1;Bacalhau
+1109024;SI;1;Camarão seco salgado
+1109027;SI;1;Peixe pirarucu salgado
 1109056;SI;1;Carne seca
-1109088;SI;1;Carne de hambúrguer
+1109058;SI;1;Carne de porco salgada defumada
 1110;II;1;Aves e ovos
-1110009;SI;1;Frango inteiro
-1110010;SI;1;Frango em pedaços
+1110003;SI;1;Peru
+1110009;SI;1;Frango
 1110044;SI;1;Ovo de galinha
-1111;II;1;Leites e derivados
+1110051;SI;1;Pato
+1111;II;1;Leite e derivados
 1111004;SI;1;Leite pasteurizado
 1111008;SI;1;Leite condensado
 1111009;SI;1;Leite em pó
-1111011;SI;1;Queijo
 1111012;SI;1;Creme de leite
 1111019;SI;1;Iogurte
+1111021;SI;1;Queijo creme
+1111023;SI;1;Queijo-de-minas
+1111024;SI;1;Queijo prato e muzzarela
+1111025;SI;1;Queijo parmesão
 1111031;SI;1;Manteiga
-1111038;SI;1;Leite fermentado
-1111051;SI;1;Leite com sabor
+1111040;SI;1;Queijo tipo reino
 1112;II;1;Panificados
-1112003;SI;1;Biscoito
+1112003;SI;1;Biscoitos
+1112012;SI;1;Pão de milho
 1112015;SI;1;Pão francês
 1112017;SI;1;Pão doce
 1112018;SI;1;Pão de forma
 1112019;SI;1;Bolo
-1112025;SI;1;Pão de queijo
 1113;II;1;Óleos e gorduras
+1113012;SI;1;Óleo de milho
 1113013;SI;1;Óleo de soja
 1113014;SI;1;Azeite de oliva
 1113040;SI;1;Margarina vegetal
 1114;II;1;Bebidas e infusões
-1114001;SI;1;Suco de frutas
-1114004;SI;1;Polpa de açaí
+1114001;SI;1;Sucos artificiais
 1114022;SI;1;Café moído
 1114023;SI;1;Café solúvel
-1114029;SI;1;Chá
-1114083;SI;1;Refrigerante e água mineral
+1114029;SI;1;Mate
+1114083;SI;1;Refrigerantes
 1114084;SI;1;Cerveja
 1114085;SI;1;Outras bebidas alcoólicas
+1114086;SI;1;Aguardente
+1114087;SI;1;Vinho
 1115;II;1;Enlatados e conservas
-1115006;SI;1;Ervilha em conserva
-1115008;SI;1;Feijoada em conserva
+1115004;SI;1;Coco ralado
+1115006;SI;1;Ervilha em lata
+1115013;SI;1;Sopas infantis
 1115016;SI;1;Palmito em conserva
-1115039;SI;1;Sardinha em conserva
-1115050;SI;1;Salsicha em conserva
-1115051;SI;1;Carne em conserva
-1115053;SI;1;Patê
-1115056;SI;1;Sopa desidratada
+1115017;SI;1;Pepino em conserva
+1115039;SI;1;Sardinha em lata
+1115050;SI;1;Salsicha em lata
+1115051;SI;1;Carne de boi em lata
+1115056;SI;1;Sopas desidratadas
 1115057;SI;1;Azeitona
-1115058;SI;1;Milho-verde em conserva
-1115059;SI;1;Cogumelo em conserva
-1115075;SI;1;Atum em conserva
+1115058;SI;1;Milho verde em lata
+1115075;SI;1;Atum em lata
 1116;II;1;Sal e condimentos
 1116001;SI;1;Leite de coco
-1116005;SI;1;Atomatado
+1116005;SI;1;Massa de tomate
 1116010;SI;1;Alho
 1116013;SI;1;Sal refinado
 1116022;SI;1;Colorau
-1116026;SI;1;Fermento
+1116026;SI;1;Fermento em pó
 1116033;SI;1;Maionese
 1116041;SI;1;Vinagre
-1116048;SI;1;Caldo concentrado
+1116048;SI;1;Caldo de galinha
+1116055;SI;1;Cominho
+1116062;SI;1;Pimenta-do-reino
+1116069;SI;1;Molho de tucupi
 1116071;SI;1;Tempero misto
-1116095;SI;1;Molho de soja
 12;SG;1;Alimentação fora do domicílio
 1201;II;1;Alimentação fora do domicílio
 1201001;SI;1;Refeição
 1201003;SI;1;Lanche
 1201005;SI;1;Café da manhã
-1201007;SI;1;Refrigerante e água mineral
+1201007;SI;1;Refrigerantes
 1201009;SI;1;Cafezinho
+1201032;SI;1;Caldos
 1201048;SI;1;Cerveja
 1201049;SI;1;Chopp
 1201051;SI;1;Outras bebidas alcoólicas
-1201061;SI;1;Doces
 2;GG;2;Habitação
 21;SG;2;Encargos e manutenção
-2101;II;2;Aluguel e taxas
+2101;II;2;Habitação
 2101001;SI;2;Aluguel residencial
 2101002;SI;2;Condomínio
+2101003;SI;2;Imposto predial
 2101004;SI;2;Taxa de água e esgoto
-2101012;SI;2;Mudança
+2101012;SI;2;Mudanças
 2103;II;2;Reparos
 2103005;SI;2;Ferragens
 2103008;SI;2;Material de eletricidade
 2103009;SI;2;Material de pintura
-2103014;SI;2;Tinta
+2103012;SI;2;Material de vidro
+2103014;SI;2;Tinta para casa
+2104;II;2;Artigos de limpeza
+2104002;SI;2;Vassoura, rodo, etc
+2104003;SI;2;Saco para lixo
+2104005;SI;2;Água sanitária
+2104008;SI;2;Detergente
+2104009;SI;2;Sabão (pó e barra)
+2104012;SI;2;Desinfetante
+2104013;SI;2;Inseticida e raticida
+2104014;SI;2;Cera e lustra-móveis
+2104016;SI;2;Esponja e bombril
+2104032;SI;2;Amaciante, alvejante, etc
+2104045;SI;2;Filtro de papel para café
+22;SG;2;Combustíveis, energia
+2201;II;2;Combustível de uso doméstico
+2201003;SI;2;Carvão vegetal
+2201004;SI;2;Gás de bujão
+2201005;SI;2;Gás encanado
+2202;II;2;Energia elétrica
+2202003;SI;2;Energia elétrica
+3;GG;3;Artigos de residência
+31;SG;3;Móveis e utensílios
+3101;II;3;Mobiliário
+3101002;SI;3;Móveis para sala
+3101003;SI;3;Móveis para quarto
+3101015;SI;3;Móveis para copa e cozinha
+3101017;SI;3;Colchão
+3101060;SI;3;Rede
+3102;II;3;Utensílios e enfeites
+3102005;SI;3;Tapetes
+3102006;SI;3;Cortinas
+3102007;SI;3;Utensílios de copa e cozinha de metal
+3102009;SI;3;Utensílios de copa e cozinha de louça
+3102010;SI;3;Artigos de plástico
+3102012;SI;3;Mamadeira, garrafa térmica
+3102014;SI;3;Copo de vidro
+3102024;SI;3;Outros utensílios de metal
+3102032;SI;3;Chupeta, bico
+3102035;SI;3;Flores
+3102038;SI;3;Conserto de utensílio e aparelho doméstico
+3103;II;3;Cama, mesa e banho
+3103001;SI;3;Roupas de cama
+3103002;SI;3;Roupas de mesa
+3103003;SI;3;Roupas de banho
+32;SG;3;Aparelhos elétricos e não-elétricos
+3201;II;3;Eletrodomésticos e equipamentos
+3201001;SI;3;Refrigerador
+3201002;SI;3;Condicionador de ar
+3201003;SI;3;Máquina de costura
+3201005;SI;3;Enceradeira
+3201006;SI;3;Máquina de lavar e secar
+3201007;SI;3;Ferro elétrico
+3201012;SI;3;Liquidificador
+3201013;SI;3;Ventilador e exaustor
+3201021;SI;3;Fogão
+3201025;SI;3;Máquina de escrever mecânica
+3201027;SI;3;Lâmpadas
+3201029;SI;3;Pilhas
+3201032;SI;3;Forno elétrico
+3201033;SI;3;Freezer
+3201034;SI;3;Máquina de lavar louça
+3201036;SI;3;Batedeira de bolo
+3201042;SI;3;Ozonizador
+3201044;SI;3;Aspirador de pó
+3201050;SI;3;Chuveiro elétrico, ducha
+3201052;SI;3;Secador de cabelo
+3201060;SI;3;Processador de alimento
+3201065;SI;3;Forno de micro-ondas
+3202;II;3;TV e som
+3202001;SI;3;Televisor
+3202002;SI;3;Rádio
+3202003;SI;3;Aparelho de som
+3202005;SI;3;Vídeo-cassete
+4;GG;4;Vestuário
+41;SG;4;Roupas
+4101;II;4;Roupa de homem
+4101002;SI;4;Calça comprida
+4101004;SI;4;Terno
+4101005;SI;4;Agasalhos
+4101006;SI;4;Short, calção e bermuda
+4101008;SI;4;Cueca
+4101009;SI;4;Camisa
+4101010;SI;4;Camiseta
+4101011;SI;4;Meias
+4101012;SI;4;Roupa de dormir
+4102;II;4;Roupa de mulher
+4102002;SI;4;Calça comprida
+4102003;SI;4;Agasalho
+4102004;SI;4;Saia
+4102005;SI;4;Vestido
+4102008;SI;4;Camiseta, blusa
+4102009;SI;4;Meias
+4102010;SI;4;Lingerie
+4102011;SI;4;Roupa de dormir
+4102012;SI;4;Roupa de banho
+4102013;SI;4;Bermuda e short
+4103;II;4;Roupa de criança
+4103001;SI;4;Uniforme
+4103002;SI;4;Calça comprida
+4103005;SI;4;Agasalho
+4103007;SI;4;Vestido
+4103008;SI;4;Short
+4103011;SI;4;Camisa
+4103012;SI;4;Camiseta
+4103013;SI;4;Meias
+4103014;SI;4;Lingerie
+4103017;SI;4;Fralda
+4103018;SI;4;Roupa de bebê
+4103024;SI;4;Saia
+4103051;SI;4;Sunga, biquini, etc
+42;SG;4;Calçados e acessórios
+4201;II;4;Calçados e acessórios
+4201002;SI;4;Sapato de homem
+4201003;SI;4;Sapato de mulher
+4201004;SI;4;Sapato de criança
+4201006;SI;4;Sandália de homem
+4201007;SI;4;Sandália de mulher
+4201008;SI;4;Sandália de criança
+4201009;SI;4;Sandália de borracha
+4201015;SI;4;Bolsa de mulher
+4201028;SI;4;Guarda-chuva
+4201029;SI;4;Bolsa de homem
+4201063;SI;4;Tênis de homem ou mulher
+4201064;SI;4;Tênis de criança
+43;SG;4;Joias, relógio de pulso
+4301;II;4;Joias, relógio de pulso
+4301002;SI;4;Joias
+4301004;SI;4;Relógio de pulso
+44;SG;4;Tecidos e armarinho
+4401;II;4;Tecidos e armarinho
+4401001;SI;4;Tecidos
+4401002;SI;4;Artigos de armarinho
+5;GG;5;Transporte e comunicação
+51;SG;5;Transporte
+5101;II;5;Transporte público
+5101001;SI;5;Ônibus urbano
+5101002;SI;5;Táxi
+5101004;SI;5;Trem
+5101006;SI;5;Ônibus a distância
+5101010;SI;5;Avião
+5101011;SI;5;Metrô
+5101026;SI;5;Transporte escolar
+5102;II;5;Veículo próprio
+5102001;SI;5;Automóveis novos
+5102004;SI;5;Emplacamento e licença
+5102005;SI;5;Seguro voluntário para veículos
+5102007;SI;5;Óleo
+5102009;SI;5;Acessórios e peças
+5102010;SI;5;Pneu e câmara-de-ar
+5102011;SI;5;Conserto de automóveis
+5102013;SI;5;Estacionamento
+5102019;SI;5;Lubrificação e lavagem
+5102020;SI;5;Automóveis usados
+5102029;SI;5;Rádio para veículo
+5102030;SI;5;Toca-fita para veículos
+5102053;SI;5;Motocicletas
+5104;II;5;Combustíveis
+5104001;SI;5;Gasolina
+5104002;SI;5;Álcool
+52;SG;5;Comunicações
+5201;II;5;Comunicações
+5201001;SI;5;Correio
+5201002;SI;5;Telefone
+5201004;SI;5;Telefone público
+6;GG;6;Saúde e cuidados pessoais
+61;SG;6;Produtos farmacêuticos, óculos e lentes
+6101;II;6;Produtos farmacêuticos
+6101001;SI;6;Anti-infecciosos
+6101002;SI;6;Analgésicos
+6101003;SI;6;Anti-inflamatórios e antirreumáticos
+6101004;SI;6;Antigripais e antitussígenos
+6101005;SI;6;Colagogos e hepatoprotetores
+6101006;SI;6;Pomadas, parasiticidas
+6101007;SI;6;Antialérgicos e corticosteróides
+6101008;SI;6;Anti-hemorrágicos e antianêmicos
+6101009;SI;6;Antiácidos, etc
+6101010;SI;6;Fortificantes e vitaminas (exceto B12)
+6101011;SI;6;Anticoncepcionais, hormônios
+6101012;SI;6;Antiespasmódicos
+6101013;SI;6;Psicotrópicos e anoréxicos
+6101014;SI;6;Anticoagulante, cardiovascular
+6101016;SI;6;Material para curativo
+6102;II;6;Óculos e Lentes
+6102001;SI;6;Óculos e lentes
+62;SG;6;Atendimento e serviços
+6201;II;6;Atendimento
+6201002;SI;6;Médico
+6201003;SI;6;Dentista
+6201005;SI;6;Aparelho dentário
+6201008;SI;6;Tratamento psicológico e fisioterapêutico
+6201013;SI;6;Radiografia
+6202;II;6;Serviços médicos
+6202003;SI;6;Exame de laboratório
+6202004;SI;6;Hospitalização e cirurgias
+6202005;SI;6;Mensalidade de clínicas
+6202006;SI;6;Eletrodiagnóstico
+6202008;SI;6;Asilo
+63;SG;6;Cuidados pessoais
+6301;II;6;Higiene pessoal
+6301001;SI;6;Produtos para cabelo
+6301006;SI;6;Produtos para pele
+6301007;SI;6;Produtos para boca
+6301010;SI;6;Esmalte, base e acetona
+6301014;SI;6;Desodorante e perfume
+6301015;SI;6;Absorvente
+6301016;SI;6;Sabonete
+6301017;SI;6;Papel higiênico
+6301020;SI;6;Artigo de maquilagem
+7;GG;7;Despesas pessoais
+71;SG;7;Serviços
+7101;II;7;Serviços pessoais
+7101001;SI;7;Alfaiate e costureira
+7101002;SI;7;Sapateiro
+7101003;SI;7;Relojoeiro
+7101004;SI;7;Tinturaria
+7101008;SI;7;Barbeiro
+7101009;SI;7;Cabeleireiro e manicure
+7101010;SI;7;Empregados domésticos
+7101026;SI;7;Fotografia para documentos
+7101034;SI;7;Cartório
+7101036;SI;7;Despachante
+72;SG;7;Recreação e fumo
+7201;II;7;Recreação
+7201001;SI;7;Cinema
+7201003;SI;7;Jogo de futebol
+7201006;SI;7;Clubes
+7201008;SI;7;Disco e fita
+7201011;SI;7;Máquina fotográfica
+7201013;SI;7;Acessório para fotografia
+7201019;SI;7;Bicicleta
+7201020;SI;7;Alimento para cães
+7201023;SI;7;Brinquedos
+7201052;SI;7;Aluguel de fita para vídeo
+7201053;SI;7;Fita de vídeo
+7201055;SI;7;Parque diversões
+7201068;SI;7;Motel
+7201083;SI;7;Equipamentos para esporte
+7201090;SI;7;Hotel
+7201095;SI;7;Excursões
+7201097;SI;7;Alimento para animais (exceto cães)
+7202;II;7;Fumo
+7202041;SI;7;Cigarros
+7202045;SI;7;Fósforos
+73;SG;7;Educação e leitura
+7301;II;7;Educação
+7301002;SI;7;Cadernos
+7301003;SI;7;Artigo de papelaria
+7301004;SI;7;Livros didáticos
+7301006;SI;7;Cursos formais
+7301007;SI;7;Cursos diversos
+7301008;SI;7;Outros pagamentos escolares
+7301020;SI;7;Livros e revistas técnicas
+7301021;SI;7;Creche
+7302;II;7;Leitura e papelaria
+7302001;SI;7;Jornal diário
+7302002;SI;7;Assinatura de jornal
+7302003;SI;7;Revista não técnica
+7302005;SI;7;Livro (bolso, brochura)
+1106041;SI;1;Banana-marmelo
+1107081;SI;1;Cupim
+1101080;SI;1;Milho em espiga
+1102001;SI;1;Farinha de arroz
+1102002;SI;1;Aveia em flocos
+1102010;SI;1;Flocos de milho
+1102028;SI;1;Cremogema
+1102043;SI;1;Massa para lasanha
+1103022;SI;1;Jiló
+1103046;SI;1;Batata-baroa
+1103048;SI;1;Mandioquinha (batata-aipo)
+1104014;SI;1;Rapadura
+1104027;SI;1;Geléia de frutas
+1104028;SI;1;Gelatina de frutas em pó
+1104029;SI;1;Geléia de mocotó
+1104031;SI;1;Mel de abelha
+1104059;SI;1;Doce de frutas em calda
+1104064;SI;1;Pamonha
+1104069;SI;1;Adoçante artificial
+1104075;SI;1;Fruta seca
+1104095;SI;1;Beiju
+1105018;SI;1;Cebolinha
+1106019;SI;1;Manga
+1106024;SI;1;Pêssego
+1106026;SI;1;Acerola
+1106034;SI;1;Ameixa
+1106051;SI;1;Morango
+1106097;SI;1;Cupuaçú
+1108035;SI;1;Peixe - pampo
+1108048;SI;1;Peixe - xerelete
+1108058;SI;1;Peixe - albacora
+1109004;SI;1;Bacon
+1109012;SI;1;Salame e salaminho
+1109088;SI;1;Carne de hambúrguer
+1110011;SI;1;Peito de frango
+1110012;SI;1;Coxa de frango
+1110014;SI;1;Asa de frango
+1111026;SI;1;Queijo muzzarella
+1111038;SI;1;Leite fermentado
+1111046;SI;1;Nata
+1111051;SI;1;Leite com sabor
+1112021;SI;1;Massa para pão de queijo
+1112025;SI;1;Pão de queijo
+1112034;SI;1;Rosca doce
+1112040;SI;1;Torta doce
+1114004;SI;1;Polpa de açaí
+1114096;SI;1;Água mineral
+1115008;SI;1;Feijoada em lata
+1116023;SI;1;Caldo de tucupi
+1117;II;1;Alimentos prontos
+1117001;SI;1;Refeição pronta
+1117012;SI;1;Lanche para viagem
+1201050;SI;1;Aguardente
+1201061;SI;1;Doces
+2101008;SI;2;Compra de água
 2103031;SI;2;Ferramentas
+2104015;SI;2;Sabão em barra
+2104018;SI;2;Desodorante ambiental
+2104020;SI;2;Limpador com amoníaco
+2104035;SI;2;Polidor de metais
+2104041;SI;2;Papel toalha
+2104056;SI;2;Lustra móveis
+3102004;SI;3;Relógio despertador
+3102015;SI;3;Mamadeira
+3102016;SI;3;Bujão de gás vazio
+3102034;SI;3;Filtro de água
+3102036;SI;3;Artigos de jardinagem
+3102037;SI;3;Fósforos
+3102039;SI;3;Vela para iluminação
+3102070;SI;3;Espelho
+3102072;SI;3;Persiana
+3102088;SI;3;Filtro de papel
+3102089;SI;3;Guardanapo de papel
+3102090;SI;3;Papel alumínio
+3201008;SI;3;Máquina de secar roupa
+3202008;SI;3;Vídeo-game
+3202028;SI;3;Microcomputador
+33;SG;3;Consertos e manutenção
+3301;II;3;Consertos e manutenção
+3301002;SI;3;Conserto de refrigerador e freezer
+3301009;SI;3;Conserto de aparelho de som
+3301012;SI;3;Conserto de vídeo-cassete
+3301015;SI;3;Conserto de máquina de lavar/secar roupa
+3301021;SI;3;Conserto de condicionador de ar
+3301022;SI;3;Reforma de estofado
+3301023;SI;3;Conserto de bomba d'água
+3301024;SI;3;Manutenção de caixa d'água, fossa, etc
+4101015;SI;4;Conjunto esportivo masculino
+4101021;SI;4;Aluguel de roupa masculina
+4102014;SI;4;Conjunto esportivo feminino
+4102050;SI;4;Camiseta feminina
+4103020;SI;4;Conjunto esportivo infantil
+4103021;SI;4;Cueca infantil
+4103022;SI;4;Macacão infantil
+4103031;SI;4;Conjunto de short e camiseta infantil
+4103040;SI;4;Conjunto de saia e blusa infantil
+4301001;SI;4;Bijuteria
+4401005;SI;4;Acortinado (mosquiteiro)
+5101007;SI;5;Ônibus interestadual
+5101009;SI;5;Ferry-boat
+5101020;SI;5;Navio
+5101022;SI;5;Barco
+5102015;SI;5;Pedágio
+5102037;SI;5;Pintura de veículo
+5102054;SI;5;Camioneta
+5104003;SI;5;Óleo diesel
+6101064;SI;6;Antidiabético
+6102002;SI;6;Armação de óculos
+6102003;SI;6;Óculos sem grau
+6102008;SI;6;Lente de contato
+6201006;SI;6;Artigos ortopédicos
+6202013;SI;6;Radiografia
+6203;II;6;Plano de saúde
+6203001;SI;6;Plano de saúde
+6301004;SI;6;Lâmina de barbear
+6301011;SI;6;Perfume
+6301013;SI;6;Produto para limpeza de pele
+7101005;SI;7;Manicure e pedicure
+7101014;SI;7;Depilação
+7101018;SI;7;Massagem e sauna
+7101038;SI;7;Serviço funerário
+7101051;SI;7;Alfaiate
+7101076;SI;7;Serviço bancário
+7101090;SI;7;Conselho de classe
+7201010;SI;7;Instrumento musical
+7201051;SI;7;Teatro
+7201054;SI;7;Boate, danceteria e discoteca
+7201063;SI;7;Jogos lotéricos
+7201066;SI;7;Aluguel de fita de vídeo-game
+7201069;SI;7;Bicicleta ergométrica
+7201084;SI;7;Telesena
+7201085;SI;7;Fita de vídeo gravada
+7201088;SI;7;Bingo
+7201091;SI;7;Arma de fogo
+7203;II;7;Fotografia e filmagem
+7203001;SI;7;Máquina fotográfica
+7203002;SI;7;Filme e flash descartável
+7203003;SI;7;Revelação e cópia
+7203004;SI;7;Filmadora
+7203006;SI;7;Fita de vídeo virgem
+8;GG;8;Educação
+81;SG;8;Cursos, leitura e papelaria
+8101;II;8;Cursos
+8101001;SI;8;Creche
+8101002;SI;8;Curso pré-escolar
+8101003;SI;8;Curso primeiro grau
+8101004;SI;8;Curso segundo grau
+8101005;SI;8;Curso terceiro grau
+8101014;SI;8;Cursos diversos
+8101018;SI;8;Livro didático
+8101024;SI;8;Livro e revista técnica
+8102;II;8;Leitura
+8102001;SI;8;Jornal diário
+8102002;SI;8;Assinatura de jornal
+8102004;SI;8;Revista não técnica
+8102005;SI;8;Livro não didático
+8103;II;8;Papelaria
+8103001;SI;8;Caderno
+8103002;SI;8;Fotocópia
+8103014;SI;8;Artigos de papelaria
+9;GG;9;Comunicação
+91;SG;9;Comunicação
+9101;II;9;Comunicação
+9101001;SI;9;Correio
+9101002;SI;9;Telefone fixo
+9101003;SI;9;Telefone público
+9101008;SI;9;Telefone celular
+9101010;SI;9;TV a cabo
+9101019;SI;9;Aparelho telefônico
+1101084;SI;1;Fava
+1102029;SI;1;Massa semipreparada
+1106084;SI;1;Goiaba
+1107010;SI;1;Outras vísceras
+1108006;SI;1;Peixe
+1108025;SI;1;Peixe - linguado
+1110010;SI;1;Frango em pedaços
+1111011;SI;1;Queijo
+1115053;SI;1;Patê
+1115059;SI;1;Cogumelo em conserva
+1116095;SI;1;Molho de soja
 2103032;SI;2;Azulejo e piso
 2103039;SI;2;Cimento
 2103040;SI;2;Tijolo
@@ -199,251 +690,16 @@ id;tipo;categoria;nome
 2103042;SI;2;Mão de obra
 2103048;SI;2;Areia
 2103049;SI;2;Pedras
-2104;II;2;Artigos de limpeza
-2104002;SI;2;Vassoura
-2104005;SI;2;Água sanitária
-2104008;SI;2;Detergente
-2104009;SI;2;Sabão em pó
-2104012;SI;2;Desinfetante
-2104013;SI;2;Inseticida
-2104014;SI;2;Cera para assoalho
-2104015;SI;2;Sabão em barra
-2104016;SI;2;Esponja de limpeza
-2104020;SI;2;Limpador com amoníaco
-2104032;SI;2;Amaciante, alvejante
-22;SG;2;Combustíveis e energia
-2201;II;2;Combustíveis (domésticos)
-2201003;SI;2;Carvão vegetal
-2201004;SI;2;Gás de botijão
-2201005;SI;2;Gás encanado
-2202;II;2;Energia elétrica residencial
-2202003;SI;2;Energia elétrica residencial
-3;GG;3;Artigos de residência
-31;SG;3;Móveis e utensílios
-3101;II;3;Mobiliário
-3101002;SI;3;Móvel para sala
-3101003;SI;3;Móvel para quarto
-3101015;SI;3;Móvel para copa e cozinha
-3101017;SI;3;Colchão
-3102;II;3;Utensílios e enfeites
-3102005;SI;3;Tapete
-3102006;SI;3;Cortina
-3102007;SI;3;Utensílios para copa e cozinha de metal
-3102009;SI;3;Utensílios para copa e cozinha de vidro e louça
-3102010;SI;3;Utensílios de plástico
-3102035;SI;3;Flores naturais
 3102040;SI;3;Utensílios diversos
-3103;II;3;Cama, mesa e banho
-3103001;SI;3;Roupa de cama
-3103003;SI;3;Roupa de banho
-32;SG;3;Aparelhos eletroeletrônicos
-3201;II;3;Eletrodomésticos e equipamentos
-3201001;SI;3;Refrigerador
-3201002;SI;3;Condicionador de ar
-3201003;SI;3;Máquina de costura
-3201006;SI;3;Máquina de lavar roupa
-3201012;SI;3;Liquidificador
-3201013;SI;3;Ventilador
-3201021;SI;3;Fogão
-3201027;SI;3;Lâmpada
-3201065;SI;3;Forno de micro-ondas
-3202;II;3;Tv, som e informática
-3202001;SI;3;Televisor
-3202003;SI;3;Aparelho de som
-3202005;SI;3;Aparelho de DVD
-3202028;SI;3;Microcomputador
-33;SG;3;Consertos e manutenção
-3301;II;3;Consertos e manutenção
-3301002;SI;3;Conserto de refrigerador e freezer
 3301006;SI;3;Conserto de televisor
-3301009;SI;3;Conserto de aparelho de som
-3301015;SI;3;Conserto de máquina de lavar/secar roupa
-3301022;SI;3;Reforma de estofado
-3301023;SI;3;Conserto de bomba d'água
-4;GG;4;Vestuário
-41;SG;4;Roupas
-4101;II;4;Roupa masculina
-4101002;SI;4;Calça comprida masculina
-4101004;SI;4;Terno
-4101005;SI;4;Agasalho masculino
-4101006;SI;4;Short e bermuda masculina
-4101008;SI;4;Cueca
-4101009;SI;4;Camisa/camiseta masculina
-4102;II;4;Roupa feminina
-4102002;SI;4;Calça comprida feminina
-4102003;SI;4;Agasalho feminino
-4102004;SI;4;Saia
-4102005;SI;4;Vestido
-4102008;SI;4;Blusa
-4102010;SI;4;Lingerie
-4102012;SI;4;Roupa de banho feminina
-4102013;SI;4;Bermuda e short feminino
-4103;II;4;Roupa infantil
-4103001;SI;4;Uniforme
-4103002;SI;4;Calça comprida infantil
-4103005;SI;4;Agasalho infantil
-4103007;SI;4;Vestido infantil
-4103008;SI;4;Bermuda e short infantil
-4103011;SI;4;Camisa/camiseta infantil
-4103017;SI;4;Fralda
-4103031;SI;4;Conjunto infantil
-42;SG;4;Calçados e acessórios
-4201;II;4;Calçados e acessórios
-4201002;SI;4;Sapato masculino
-4201003;SI;4;Sapato feminino
-4201004;SI;4;Sapato infantil
-4201006;SI;4;Sandália / chinelo masculino
-4201007;SI;4;Sandália / chinelo feminino
-4201008;SI;4;Sandália / chinelo infantil
-4201015;SI;4;Bolsa
-4201063;SI;4;Tênis
-43;SG;4;Joias e bijuterias
-4301;II;4;Joias e bijuterias
-4301001;SI;4;Bijuteria
-4301002;SI;4;Joia
-4301004;SI;4;Relógio de pulso
-44;SG;4;Tecidos e armarinho
-4401;II;4;Tecidos e armarinho
-4401001;SI;4;Tecido
-4401002;SI;4;Artigos de armarinho
-5;GG;5;Transportes
-51;SG;5;Transportes
-5101;II;5;Transporte público
-5101001;SI;5;Ônibus urbano
-5101002;SI;5;Táxi
-5101004;SI;5;Trem
-5101006;SI;5;Ônibus intermunicipal
-5101007;SI;5;Ônibus interestadual
-5101009;SI;5;Ferry-boat
-5101010;SI;5;Passagem aérea
-5101011;SI;5;Metrô
-5101022;SI;5;Barco
-5101026;SI;5;Transporte escolar
-5102;II;5;Veículo próprio
-5102001;SI;5;Automóvel novo
-5102004;SI;5;Emplacamento e licença
-5102005;SI;5;Seguro voluntário de veículo
 5102006;SI;5;Multa
-5102007;SI;5;Óleo lubrificante
-5102009;SI;5;Acessórios e peças
-5102010;SI;5;Pneu e câmara-de-ar
-5102011;SI;5;Conserto de automóvel
-5102013;SI;5;Estacionamento
-5102015;SI;5;Pedágio
-5102019;SI;5;Lubrificação e lavagem
-5102020;SI;5;Automóvel usado
 5102033;SI;5;Reboque
-5102037;SI;5;Pintura de veículo
 5102051;SI;5;Aluguel de veículo
-5102053;SI;5;Motocicleta
-5104;II;5;Combustíveis (veículos)
-5104001;SI;5;Gasolina
-5104002;SI;5;Etanol
-5104003;SI;5;Óleo diesel
 5104005;SI;5;Gás veicular
-6;GG;6;Saúde e cuidados pessoais
-61;SG;6;Produtos farmacêuticos e óticos
-6101;II;6;Produtos farmacêuticos
-6101001;SI;6;Anti-infeccioso e antibiótico
-6101002;SI;6;Analgésico e antitérmico
-6101003;SI;6;Anti-inflamatório e antirreumático
-6101004;SI;6;Antigripal e antitussígeno
-6101006;SI;6;Antimicótico e parasiticida
-6101007;SI;6;Antialérgico e broncodilatador
-6101009;SI;6;Gastroprotetor
-6101010;SI;6;Vitamina e fortificante
-6101011;SI;6;Hormônio
-6101013;SI;6;Psicotrópico e anorexígeno
-6101014;SI;6;Hipotensor e hipocolesterolêmico
 6101051;SI;6;Oftalmológico
-6102;II;6;Produtos óticos
-6102001;SI;6;Lente de grau
-6102002;SI;6;Armação de óculos
-6102003;SI;6;Óculos sem grau
-6102008;SI;6;Lente de contato
-62;SG;6;Serviços de saúde
-6201;II;6;Serviços médicos e dentários
-6201002;SI;6;Médico
-6201003;SI;6;Dentista
-6201005;SI;6;Aparelho dentário
-6201006;SI;6;Artigos ortopédicos
-6201008;SI;6;Tratamento psicológico e fisioterápico
-6202;II;6;Serviços laboratoriais e hospitalares
-6202003;SI;6;Exame de laboratório
-6202004;SI;6;Hospitalização e cirurgia
-6202006;SI;6;Eletrodiagnóstico
-6202008;SI;6;Asilo
-6202013;SI;6;Radiografia
-6203;II;6;Plano de saúde
-6203001;SI;6;Plano de saúde
-63;SG;6;Cuidados pessoais
-6301;II;6;Higiene pessoal
-6301001;SI;6;Produto para cabelo
-6301006;SI;6;Produto para pele
-6301007;SI;6;Produto para higiene bucal
-6301010;SI;6;Produto para unha
-6301011;SI;6;Perfume
-6301014;SI;6;Desodorante
-6301015;SI;6;Absorvente higiênico
-6301016;SI;6;Sabonete
-6301017;SI;6;Papel higiênico
-6301020;SI;6;Artigos de maquiagem
-7;GG;7;Despesas pessoais
-71;SG;7;Serviços pessoais
-7101;II;7;Serviços pessoais
-7101001;SI;7;Costureira
-7101005;SI;7;Manicure e pedicure
-7101008;SI;7;Barbeiro
-7101009;SI;7;Cabeleireiro
-7101010;SI;7;Empregado doméstico
-7101014;SI;7;Depilação
-7101034;SI;7;Cartório
-7101036;SI;7;Despachante
-7101076;SI;7;Serviço bancário
-7101090;SI;7;Conselho de classe
-72;SG;7;Recreação, fumo e filmes
-7201;II;7;Recreação
-7201001;SI;7;Cinema
-7201003;SI;7;Ingresso para jogo
-7201006;SI;7;Clube
-7201008;SI;7;Disco laser
-7201010;SI;7;Instrumento musical
 7201018;SI;7;Compra e tratamento de animais
-7201019;SI;7;Bicicleta
-7201020;SI;7;Alimento para animais
-7201023;SI;7;Brinquedo
-7201052;SI;7;Aluguel de DVD e fita de videocassete
-7201054;SI;7;Boate, danceteria e discoteca
-7201063;SI;7;Jogos de azar
-7201068;SI;7;Motel
-7201083;SI;7;Material esportivo
-7201090;SI;7;Hotel
-7201095;SI;7;Excursão
-7202;II;7;Fumo
-7202041;SI;7;Cigarro
-7203;II;7;Fotografia e filmagem
-7203001;SI;7;Máquina fotográfica
-7203002;SI;7;Filme e flash descartável
-7203003;SI;7;Revelação e cópia
-8;GG;8;Educação
-81;SG;8;Cursos, leitura e papelaria
-8101;II;8;Cursos
-8101001;SI;8;Creche
-8101002;SI;8;Educação infantil
-8101003;SI;8;Ensino fundamental
-8101004;SI;8;Ensino médio
-8101005;SI;8;Ensino superior
 8101006;SI;8;Pós-graduação
 8101008;SI;8;Curso supletivo
-8102;II;8;Leitura
-8102001;SI;8;Jornal diário
-8102002;SI;8;Assinatura de jornal
-8102004;SI;8;Revista
-8102005;SI;8;Livro
-8103;II;8;Papelaria
-8103001;SI;8;Caderno
-8103002;SI;8;Fotocópia
-8103014;SI;8;Artigos de papelaria
 8104;II;8;Cursos diversos
 8104001;SI;8;Curso preparatório
 8104002;SI;8;Curso técnico
@@ -454,934 +710,62 @@ id;tipo;categoria;nome
 8104007;SI;8;Natação
 8104008;SI;8;Balé
 8104009;SI;8;Escolinha de esporte
-9;GG;9;Comunicação
-91;SG;9;Comunicação
-9101;II;9;Comunicação
-9101001;SI;9;Correio
-9101002;SI;9;Telefone fixo
-9101003;SI;9;Telefone público
-9101008;SI;9;Telefone celular
-9101010;SI;9;TV a cabo
 9101018;SI;9;Acesso à internet
-9101019;SI;9;Aparelho telefônico
-0;IG;0;Índice geral
-1;GG;1;Alimentação e bebidas
-11;SG;1;Alimentação no domicílio
-1101;II;1;Cereais, leguminosas e oleaginosas
-1101002;SI;1;Arroz
-1101051;SI;1;Feijão - mulatinho
-1101052;SI;1;Feijão - preto
-1101053;SI;1;Feijão - macassar (fradinho)
-1101073;SI;1;Feijão - carioca (rajado)
 1101075;SI;1;Feijão - branco
-1102;II;1;Farinhas, féculas e massas
-1102001;SI;1;Farinha de arroz
-1102006;SI;1;Macarrão
-1102008;SI;1;Fubá de milho
-1102009;SI;1;Amido de milho
-1102010;SI;1;Flocos de milho
-1102012;SI;1;Farinha de trigo
-1102013;SI;1;Farinha vitaminada
-1102023;SI;1;Farinha de mandioca
-1102029;SI;1;Massa semipreparada
-1103;II;1;Tubérculos, raízes e legumes
-1103003;SI;1;Batata-inglesa
-1103004;SI;1;Inhame
-1103005;SI;1;Mandioca (aipim)
-1103017;SI;1;Abóbora
-1103026;SI;1;Pimentão
-1103027;SI;1;Quiabo
-1103028;SI;1;Tomate
-1103043;SI;1;Cebola
-1103044;SI;1;Cenoura
-1103046;SI;1;Mandioquinha (batata-baroa)
-1104;II;1;Açúcares e derivados
-1104003;SI;1;Açúcar refinado
-1104004;SI;1;Açúcar cristal
-1104018;SI;1;Balas
-1104023;SI;1;Chocolate em barra e bombom
-1104032;SI;1;Sorvete
-1104052;SI;1;Chocolate e achocolatado em pó
-1104060;SI;1;Doce de frutas em pasta
-1105;II;1;Hortaliças e verduras
-1105001;SI;1;Alface
-1105004;SI;1;Coentro
-1105005;SI;1;Couve
-1105006;SI;1;Couve-flor
-1105010;SI;1;Repolho
-1105012;SI;1;Cheiro-verde
-1105013;SI;1;Agrião
-1105019;SI;1;Brócolis
-1106;II;1;Frutas
-1106001;SI;1;Banana-da-terra
-1106003;SI;1;Abacaxi
-1106004;SI;1;Abacate
-1106005;SI;1;Banana - d'água
-1106006;SI;1;Banana - maçã
-1106008;SI;1;Banana - prata
-1106011;SI;1;Laranja - baía
-1106015;SI;1;Limão
-1106017;SI;1;Maçã
-1106018;SI;1;Mamão
-1106019;SI;1;Manga
-1106020;SI;1;Maracujá
-1106021;SI;1;Melancia
-1106023;SI;1;Pera
-1106027;SI;1;Tangerina
-1106028;SI;1;Uva
-1106039;SI;1;Laranja - pera
-1106051;SI;1;Morango
-1106084;SI;1;Goiaba
-1107;II;1;Carnes
-1107009;SI;1;Fígado
-1107018;SI;1;Carne de porco
-1107031;SI;1;Carne de carneiro
-1107084;SI;1;Contrafilé
-1107085;SI;1;Filé-mignon
-1107087;SI;1;Chã de dentro
-1107088;SI;1;Alcatra
-1107089;SI;1;Patinho
-1107090;SI;1;Lagarto redondo
-1107091;SI;1;Lagarto comum
-1107093;SI;1;Músculo
-1107094;SI;1;Pá
-1107095;SI;1;Acém
-1107096;SI;1;Peito
-1107097;SI;1;Capa de filé
-1107099;SI;1;Costela
-1108;II;1;Pescados
-1108002;SI;1;Peixe - anchova
-1108003;SI;1;Peixe - badejo
-1108004;SI;1;Peixe - corvina
-1108005;SI;1;Peixe - cavalinha
-1108006;SI;1;Peixe
-1108009;SI;1;Peixe - pescadinha
-1108011;SI;1;Peixe - tainha
-1108012;SI;1;Peixe - sardinha
-1108013;SI;1;Camarão
-1108015;SI;1;Peixe - vermelho
-1108019;SI;1;Peixe - cavala
 1108024;SI;1;Peixe - pacu
-1108028;SI;1;Peixe - dourado
-1108029;SI;1;Peixe - cação
-1108031;SI;1;Peixe - merluza
-1108032;SI;1;Peixe - serra
-1108038;SI;1;Peixe - pescada
-1108045;SI;1;Caranguejo
 1108049;SI;1;Peixe - castanha
 1108054;SI;1;Peixe - piau
-1108057;SI;1;Peixe - surubim
 1108067;SI;1;Sururu
 1108072;SI;1;Peixe - curimatã
 1108075;SI;1;Peixe - salmão
 1108080;SI;1;Peixe - tilápia
 1108083;SI;1;Peixe - tucunaré
 1108087;SI;1;Peixe - tambaqui
-1108088;SI;1;Peixe - dourada
 1108096;SI;1;Peixe - peroá
 1108112;SI;1;Peixe - pintado
 1108170;SI;1;Peixe - mandi
-1109;II;1;Carnes e peixes industrializados
-1109002;SI;1;Presunto
-1109007;SI;1;Salsicha
-1109008;SI;1;Linguiça
-1109010;SI;1;Mortadela
-1109012;SI;1;Salame
-1109056;SI;1;Carne-seca e de sol
-1109058;SI;1;Carne de porco salgada e defumada
-1109088;SI;1;Hambúrger
-1110;II;1;Aves e ovos
-1110009;SI;1;Frango inteiro
-1110010;SI;1;Frango em pedaços
-1110044;SI;1;Ovo de galinha
-1111;II;1;Leites e derivados
-1111004;SI;1;Leite longa vida
-1111008;SI;1;Leite condensado
-1111009;SI;1;Leite em pó
-1111011;SI;1;Queijo
-1111012;SI;1;Creme de leite
-1111019;SI;1;Iogurte e bebidas lácteas
-1111031;SI;1;Manteiga
-1112;II;1;Panificados
-1112003;SI;1;Biscoito
-1112015;SI;1;Pão francês
-1112017;SI;1;Pão doce
-1112018;SI;1;Pão de forma
-1112019;SI;1;Bolo
-1112025;SI;1;Pão de queijo
-1113;II;1;Óleos e gorduras
-1113013;SI;1;Óleo de soja
-1113014;SI;1;Azeite de oliva
-1113040;SI;1;Margarina
-1114;II;1;Bebidas e infusões
-1114001;SI;1;Suco de frutas
-1114004;SI;1;Açaí (emulsão)
-1114022;SI;1;Café moído
-1114023;SI;1;Café solúvel
-1114029;SI;1;Chá
-1114083;SI;1;Refrigerante e água mineral
-1114084;SI;1;Cerveja
-1114085;SI;1;Outras bebidas alcoólicas
-1115;II;1;Enlatados e conservas
-1115004;SI;1;Coco ralado
-1115006;SI;1;Ervilha em conserva
-1115016;SI;1;Palmito em conserva
-1115017;SI;1;Pepino em conserva
-1115039;SI;1;Sardinha em conserva
-1115050;SI;1;Salsicha em conserva
-1115051;SI;1;Carne em conserva
-1115053;SI;1;Patê
-1115056;SI;1;Sopa desidratada
-1115057;SI;1;Azeitona
-1115058;SI;1;Milho-verde em conserva
-1115075;SI;1;Atum em conserva
-1116;II;1;Sal e condimentos
-1116001;SI;1;Leite de coco
-1116005;SI;1;Atomatado
-1116010;SI;1;Alho
-1116013;SI;1;Sal
-1116026;SI;1;Fermento
-1116033;SI;1;Maionese
-1116041;SI;1;Vinagre
-1116048;SI;1;Caldo concentrado
-1116071;SI;1;Tempero misto
-12;SG;1;Alimentação fora do domicílio
-1201;II;1;Alimentação fora do domicílio
-1201001;SI;1;Refeição
-1201003;SI;1;Lanche
-1201005;SI;1;Café da manhã
-1201007;SI;1;Refrigerante e água mineral
-1201009;SI;1;Cafezinho
-1201048;SI;1;Cerveja
-1201051;SI;1;Outras bebidas alcoólicas
-1201061;SI;1;Doces
-2;GG;2;Habitação
-21;SG;2;Encargos e manutenção
-2101;II;2;Aluguel e taxas
-2101001;SI;2;Aluguel residencial
-2101002;SI;2;Condomínio
-2101004;SI;2;Taxa de água e esgoto
-2101012;SI;2;Mudança
-2103;II;2;Reparos
-2103005;SI;2;Ferragens
-2103008;SI;2;Material de eletricidade
-2103009;SI;2;Material de pintura
-2103012;SI;2;Vidro
-2103014;SI;2;Tinta
-2103032;SI;2;Revestimento de piso e parede
-2103039;SI;2;Cimento
-2103040;SI;2;Tijolo
-2103041;SI;2;Material hidráulico
-2103042;SI;2;Mão de obra
-2103048;SI;2;Areia
 2103055;SI;2;Telha
-2104;II;2;Artigos de limpeza
-2104005;SI;2;Água sanitária
-2104008;SI;2;Detergente
-2104009;SI;2;Sabão em pó
-2104012;SI;2;Desinfetante
-2104013;SI;2;Inseticida
-2104015;SI;2;Sabão em barra
-2104016;SI;2;Esponja de limpeza
-2104032;SI;2;Amaciante
-22;SG;2;Combustíveis e energia
-2201;II;2;Combustíveis (domésticos)
-2201003;SI;2;Carvão vegetal
-2201004;SI;2;Gás de botijão
-2201005;SI;2;Gás encanado
-2202;II;2;Energia elétrica residencial
-2202003;SI;2;Energia elétrica residencial
-3;GG;3;Artigos de residência
-31;SG;3;Móveis e utensílios
-3101;II;3;Mobiliário
-3101002;SI;3;Móvel para sala
-3101003;SI;3;Móvel para quarto
-3101015;SI;3;Móvel para copa e cozinha
 3101016;SI;3;Móvel infantil
-3101017;SI;3;Colchão
-3102;II;3;Utensílios e enfeites
-3102005;SI;3;Tapete
-3102006;SI;3;Cortina
-3102007;SI;3;Utensílios de metal
-3102009;SI;3;Utensílios de vidro e louça
-3102010;SI;3;Utensílios de plástico
-3102035;SI;3;Flores naturais
-3102040;SI;3;Utensílios diversos
-3103;II;3;Cama, mesa e banho
-3103001;SI;3;Roupa de cama
-3103003;SI;3;Roupa de banho
-32;SG;3;Aparelhos eletroeletrônicos
-3201;II;3;Eletrodomésticos e equipamentos
-3201001;SI;3;Refrigerador
-3201002;SI;3;Ar-condicionado
-3201006;SI;3;Máquina de lavar roupa
-3201012;SI;3;Liquidificador
-3201013;SI;3;Ventilador
-3201021;SI;3;Fogão
-3201050;SI;3;Chuveiro elétrico
-3201065;SI;3;Forno de micro-ondas
-3202;II;3;Tv, som e informática
-3202001;SI;3;Televisor
-3202003;SI;3;Aparelho de som
-3202005;SI;3;Aparelho de DVD
 3202013;SI;3;Antena
-3202028;SI;3;Microcomputador
-33;SG;3;Consertos e manutenção
-3301;II;3;Consertos e manutenção
-3301002;SI;3;Conserto de refrigerador
-3301006;SI;3;Conserto de televisor
-3301009;SI;3;Conserto de aparelho de som
-3301015;SI;3;Conserto de máquina de lavar roupa
-3301022;SI;3;Reforma de estofado
 3301044;SI;3;Manutenção de microcomputador
-4;GG;4;Vestuário
-41;SG;4;Roupas
-4101;II;4;Roupa masculina
-4101002;SI;4;Calça comprida masculina
-4101004;SI;4;Terno
-4101005;SI;4;Agasalho masculino
-4101006;SI;4;Short e bermuda masculina
-4101008;SI;4;Cueca
-4101009;SI;4;Camisa/camiseta masculina
-4102;II;4;Roupa feminina
-4102002;SI;4;Calça comprida feminina
-4102003;SI;4;Agasalho feminino
-4102004;SI;4;Saia
-4102005;SI;4;Vestido
-4102008;SI;4;Blusa
-4102010;SI;4;Lingerie
-4102013;SI;4;Bermuda e short feminino
-4103;II;4;Roupa infantil
-4103001;SI;4;Uniforme escolar
-4103002;SI;4;Calça comprida infantil
-4103005;SI;4;Agasalho infantil
-4103007;SI;4;Vestido infantil
-4103008;SI;4;Bermuda e short infantil
-4103011;SI;4;Camisa/camiseta infantil
-4103031;SI;4;Conjunto infantil
-42;SG;4;Calçados e acessórios
-4201;II;4;Calçados e acessórios
-4201002;SI;4;Sapato masculino
-4201003;SI;4;Sapato feminino
-4201004;SI;4;Sapato infantil
-4201006;SI;4;Sandália / chinelo masculino
-4201007;SI;4;Sandália / chinelo feminino
-4201008;SI;4;Sandália / chinelo infantil
-4201015;SI;4;Bolsa
-4201063;SI;4;Tênis
-43;SG;4;Joias e bijuterias
-4301;II;4;Joias e bijuterias
-4301001;SI;4;Bijuteria
-4301002;SI;4;Joia
-4301004;SI;4;Relógio de pulso
-44;SG;4;Tecidos e armarinho
-4401;II;4;Tecidos e armarinho
-4401001;SI;4;Tecido
-4401002;SI;4;Artigos de armarinho
-4401005;SI;4;Acortinado (mosquiteiro)
-5;GG;5;Transportes
-51;SG;5;Transportes
-5101;II;5;Transporte público
-5101001;SI;5;Ônibus urbano
-5101002;SI;5;Táxi
-5101004;SI;5;Trem
-5101006;SI;5;Ônibus intermunicipal
-5101007;SI;5;Ônibus interestadual
-5101010;SI;5;Passagem aérea
-5101011;SI;5;Metrô
-5101022;SI;5;Transporte hidroviário
-5101026;SI;5;Transporte escolar
-5102;II;5;Veículo próprio
-5102001;SI;5;Automóvel novo
-5102004;SI;5;Emplacamento e licença
-5102005;SI;5;Seguro voluntário de veículo
-5102006;SI;5;Multa
-5102007;SI;5;Óleo lubrificante
-5102009;SI;5;Acessórios e peças
-5102010;SI;5;Pneu
-5102011;SI;5;Conserto de automóvel
-5102013;SI;5;Estacionamento
-5102015;SI;5;Pedágio
-5102019;SI;5;Lubrificação e lavagem
-5102020;SI;5;Automóvel usado
-5102037;SI;5;Pintura de veículo
-5102051;SI;5;Aluguel de veículo
-5102053;SI;5;Motocicleta
-5104;II;5;Combustíveis (veículos)
-5104001;SI;5;Gasolina
-5104002;SI;5;Etanol
-5104003;SI;5;Óleo diesel
-5104005;SI;5;Gás veicular
-6;GG;6;Saúde e cuidados pessoais
-61;SG;6;Produtos farmacêuticos e óticos
-6101;II;6;Produtos farmacêuticos
-6101001;SI;6;Anti-infeccioso e antibiótico
-6101002;SI;6;Analgésico e antitérmico
-6101003;SI;6;Anti-inflamatório e antirreumático
-6101004;SI;6;Antigripal e antitussígeno
-6101006;SI;6;Dermatológico
-6101007;SI;6;Antialérgico e broncodilatador
-6101009;SI;6;Gastroprotetor
-6101010;SI;6;Vitamina e fortificante
-6101011;SI;6;Hormônio
-6101013;SI;6;Psicotrópico e anorexígeno
-6101014;SI;6;Hipotensor e hipocolesterolêmico
-6101051;SI;6;Oftalmológico
-6102;II;6;Produtos óticos
-6102002;SI;6;Armação de óculos
-6102003;SI;6;Óculos sem grau
 6102011;SI;6;Lentes de óculos e de contato
-62;SG;6;Serviços de saúde
-6201;II;6;Serviços médicos e dentários
-6201002;SI;6;Médico
-6201003;SI;6;Dentista
-6201005;SI;6;Aparelho ortodôntico
-6201006;SI;6;Artigos ortopédicos
 6201007;SI;6;Fisioterapeuta
 6201010;SI;6;Psicólogo
-6202;II;6;Serviços laboratoriais e hospitalares
-6202003;SI;6;Exame de laboratório
-6202004;SI;6;Hospitalização e cirurgia
-6202006;SI;6;Exame de imagem
-6203;II;6;Plano de saúde
-6203001;SI;6;Plano de saúde
-63;SG;6;Cuidados pessoais
-6301;II;6;Higiene pessoal
-6301001;SI;6;Produto para cabelo
 6301002;SI;6;Fralda descartável
-6301004;SI;6;Produto para barba
-6301006;SI;6;Produto para pele
-6301007;SI;6;Produto para higiene bucal
-6301010;SI;6;Produto para unha
-6301011;SI;6;Perfume
-6301014;SI;6;Desodorante
-6301015;SI;6;Absorvente higiênico
-6301016;SI;6;Sabonete
-6301017;SI;6;Papel higiênico
-6301020;SI;6;Artigos de maquiagem
-7;GG;7;Despesas pessoais
-71;SG;7;Serviços pessoais
-7101;II;7;Serviços pessoais
-7101001;SI;7;Costureira
-7101005;SI;7;Manicure
-7101009;SI;7;Cabeleireiro
-7101010;SI;7;Empregado doméstico
-7101014;SI;7;Depilação
-7101036;SI;7;Despachante
-7101076;SI;7;Serviço bancário
-7101090;SI;7;Conselho de classe
-72;SG;7;Recreação, fumo e fotografia
-7201;II;7;Recreação
-7201001;SI;7;Cinema
 7201002;SI;7;CD e DVD
-7201003;SI;7;Ingresso para jogo
-7201006;SI;7;Clube
-7201010;SI;7;Instrumento musical
-7201018;SI;7;Tratamento de animais
-7201019;SI;7;Bicicleta
-7201020;SI;7;Alimento para animais
-7201023;SI;7;Brinquedo
-7201052;SI;7;Locação de DVD
-7201054;SI;7;Boate e danceteria
-7201063;SI;7;Jogos de azar
-7201068;SI;7;Motel
-7201090;SI;7;Hotel
-7201095;SI;7;Excursão
-7202;II;7;Fumo
-7202041;SI;7;Cigarro
-7203;II;7;Fotografia e filmagem
-7203001;SI;7;Máquina fotográfica
-7203003;SI;7;Revelação e cópia
-8;GG;8;Educação
-81;SG;8;Cursos, leitura e papelaria
-8101;II;8;Cursos regulares
-8101001;SI;8;Creche
-8101002;SI;8;Educação infantil
-8101003;SI;8;Ensino fundamental
-8101004;SI;8;Ensino médio
-8101005;SI;8;Ensino superior
-8101006;SI;8;Pós-graduação
-8102;II;8;Leitura
-8102001;SI;8;Jornal diário
-8102002;SI;8;Assinatura de jornal
-8102004;SI;8;Revista
-8102005;SI;8;Livro
-8103;II;8;Papelaria
-8103001;SI;8;Caderno
-8103002;SI;8;Fotocópia
-8103014;SI;8;Artigos de papelaria
-8104;II;8;Cursos diversos
-8104001;SI;8;Curso preparatório
-8104002;SI;8;Curso técnico
-8104003;SI;8;Curso de idioma
-8104004;SI;8;Curso de informática
-8104005;SI;8;Autoescola
-8104006;SI;8;Atividades físicas
-9;GG;9;Comunicação
-91;SG;9;Comunicação
-9101;II;9;Comunicação
-9101001;SI;9;Correio
-9101002;SI;9;Telefone fixo
-9101003;SI;9;Telefone público
-9101008;SI;9;Telefone celular
-9101018;SI;9;Acesso à internet
-9101019;SI;9;Aparelho telefônico
 9101021;SI;9;Telefone com internet - pacote
 9101022;SI;9;TV por assinatura com internet
-0;IG;0;Índice geral
-1;GG;1;Alimentação e bebidas
-11;SG;1;Alimentação no domicílio
-1101;II;1;Cereais, leguminosas e oleaginosas
-1101002;SI;1;Arroz
-1101051;SI;1;Feijão - mulatinho
-1101052;SI;1;Feijão - preto
-1101053;SI;1;Feijão - macáçar (fradinho)
-1101073;SI;1;Feijão - carioca (rajado)
-1101079;SI;1;Milho (em grão)
-1102;II;1;Farinhas, féculas e massas
-1102001;SI;1;Farinha de arroz
-1102006;SI;1;Macarrão
-1102008;SI;1;Fubá de milho
-1102010;SI;1;Flocos de milho
-1102012;SI;1;Farinha de trigo
-1102023;SI;1;Farinha de mandioca
-1102029;SI;1;Massa semipreparada
 1102061;SI;1;Macarrão instantâneo
-1103;II;1;Tubérculos, raízes e legumes
-1103002;SI;1;Batata-doce
-1103003;SI;1;Batata-inglesa
-1103004;SI;1;Inhame
-1103005;SI;1;Mandioca (aipim)
-1103020;SI;1;Abobrinha
-1103025;SI;1;Pepino
-1103026;SI;1;Pimentão
-1103028;SI;1;Tomate
-1103043;SI;1;Cebola
-1103044;SI;1;Cenoura
-1104;II;1;Açúcares e derivados
-1104003;SI;1;Açúcar refinado
-1104004;SI;1;Açúcar cristal
-1104018;SI;1;Balas
-1104023;SI;1;Chocolate em barra e bombom
-1104032;SI;1;Sorvete
-1104052;SI;1;Chocolate e achocolatado em pó
-1104060;SI;1;Doce de frutas em pasta
 1104067;SI;1;Açúcar demerara
-1105;II;1;Hortaliças e verduras
-1105001;SI;1;Alface
-1105004;SI;1;Coentro
-1105005;SI;1;Couve
-1105006;SI;1;Couve-flor
-1105010;SI;1;Repolho
-1105012;SI;1;Cheiro-verde
-1105019;SI;1;Brócolis
-1106;II;1;Frutas
-1106001;SI;1;Banana-da-terra
-1106003;SI;1;Abacaxi
-1106004;SI;1;Abacate
-1106005;SI;1;Banana - d'água
-1106006;SI;1;Banana - maçã
-1106008;SI;1;Banana - prata
-1106011;SI;1;Laranja - baía
-1106012;SI;1;Laranja - lima
-1106015;SI;1;Limão
-1106017;SI;1;Maçã
-1106018;SI;1;Mamão
-1106019;SI;1;Manga
-1106020;SI;1;Maracujá
-1106021;SI;1;Melancia
-1106022;SI;1;Melão
-1106023;SI;1;Pera
-1106027;SI;1;Tangerina
-1106028;SI;1;Uva
-1106039;SI;1;Laranja - pera
-1106051;SI;1;Morango
-1106084;SI;1;Goiaba
-1107;II;1;Carnes
-1107009;SI;1;Fígado
-1107018;SI;1;Carne de porco
-1107031;SI;1;Carne de carneiro
-1107081;SI;1;Cupim
-1107084;SI;1;Contrafilé
-1107085;SI;1;Filé-mignon
-1107087;SI;1;Chã de dentro
-1107088;SI;1;Alcatra
-1107089;SI;1;Patinho
-1107090;SI;1;Lagarto redondo
-1107091;SI;1;Lagarto comum
-1107093;SI;1;Músculo
-1107094;SI;1;Pá
-1107095;SI;1;Acém
-1107096;SI;1;Peito
-1107097;SI;1;Capa de filé
-1107099;SI;1;Costela
 1107208;SI;1;Picanha
-1108;II;1;Pescados
-1108002;SI;1;Peixe - anchova
-1108004;SI;1;Peixe - corvina
-1108011;SI;1;Peixe - tainha
-1108012;SI;1;Peixe - sardinha
-1108013;SI;1;Camarão
-1108019;SI;1;Peixe - cavala
-1108029;SI;1;Peixe - cação
-1108031;SI;1;Peixe - merluza
-1108032;SI;1;Peixe - serra
-1108038;SI;1;Peixe - pescada
-1108045;SI;1;Caranguejo
-1108049;SI;1;Peixe - castanha
 1108052;SI;1;Peixe - palombeta
-1108072;SI;1;Peixe - curimatã
-1108075;SI;1;Peixe - salmão
-1108080;SI;1;Peixe - tilápia
-1108087;SI;1;Peixe - tambaqui
-1108088;SI;1;Peixe - dourada
-1108092;SI;1;Peixe - filhote
-1108096;SI;1;Peixe - peroá
-1108112;SI;1;Peixe - pintado
 1108125;SI;1;Peixe - aruanã
-1109;II;1;Carnes e peixes industrializados
-1109002;SI;1;Presunto
-1109007;SI;1;Salsicha
-1109008;SI;1;Linguiça
-1109010;SI;1;Mortadela
-1109012;SI;1;Salame
-1109023;SI;1;Bacalhau
-1109056;SI;1;Carne-seca e de sol
-1109058;SI;1;Carne de porco salgada e defumada
-1110;II;1;Aves e ovos
-1110009;SI;1;Frango inteiro
-1110010;SI;1;Frango em pedaços
-1110044;SI;1;Ovo de galinha
-1111;II;1;Leites e derivados
-1111004;SI;1;Leite longa vida
-1111008;SI;1;Leite condensado
-1111009;SI;1;Leite em pó
-1111011;SI;1;Queijo
-1111019;SI;1;Iogurte e bebidas lácteas
-1111021;SI;1;Requeijão
-1111031;SI;1;Manteiga
-1111038;SI;1;Leite fermentado
-1112;II;1;Panificados
-1112003;SI;1;Biscoito
-1112015;SI;1;Pão francês
-1112017;SI;1;Pão doce
-1112018;SI;1;Pão de forma
-1112019;SI;1;Bolo
-1112025;SI;1;Pão de queijo
-1113;II;1;Óleos e gorduras
-1113013;SI;1;Óleo de soja
-1113014;SI;1;Azeite de oliva
-1113040;SI;1;Margarina
-1114;II;1;Bebidas e infusões
-1114001;SI;1;Suco de frutas
 1114003;SI;1;Polpa de fruta (congelada)
-1114004;SI;1;Açaí (emulsão)
-1114022;SI;1;Café moído
-1114023;SI;1;Café solúvel
-1114083;SI;1;Refrigerante e água mineral
-1114084;SI;1;Cerveja
-1114085;SI;1;Outras bebidas alcoólicas
-1114087;SI;1;Vinho
 1114090;SI;1;Suco em pó
 1114091;SI;1;Chá mate (erva mate)
-1115;II;1;Enlatados e conservas
-1115013;SI;1;Alimento infantil
-1115016;SI;1;Palmito em conserva
-1115017;SI;1;Pepino em conserva
-1115039;SI;1;Sardinha em conserva
-1115050;SI;1;Salsicha em conserva
-1115056;SI;1;Sopa desidratada
-1115057;SI;1;Azeitona
-1115058;SI;1;Milho-verde em conserva
-1115075;SI;1;Atum em conserva
-1116;II;1;Sal e condimentos
-1116001;SI;1;Leite de coco
-1116005;SI;1;Atomatado
-1116010;SI;1;Alho
-1116013;SI;1;Sal
-1116022;SI;1;Colorau
-1116023;SI;1;Caldo de tucupi
-1116026;SI;1;Fermento
-1116033;SI;1;Maionese
-1116041;SI;1;Vinagre
-1116048;SI;1;Caldo concentrado
-1116071;SI;1;Tempero misto
-12;SG;1;Alimentação fora do domicílio
-1201;II;1;Alimentação fora do domicílio
-1201001;SI;1;Refeição
-1201003;SI;1;Lanche
-1201007;SI;1;Refrigerante e água mineral
-1201009;SI;1;Cafezinho
-1201048;SI;1;Cerveja
-1201051;SI;1;Outras bebidas alcoólicas
 1201052;SI;1;Vinho
-1201061;SI;1;Doces
 1201088;SI;1;Sorvete
-2;GG;2;Habitação
-21;SG;2;Encargos e manutenção
-2101;II;2;Aluguel e taxas
-2101001;SI;2;Aluguel residencial
-2101002;SI;2;Condomínio
-2101004;SI;2;Taxa de água e esgoto
-2101012;SI;2;Mudança
-2103;II;2;Reparos
-2103005;SI;2;Ferragens
-2103008;SI;2;Material de eletricidade
-2103012;SI;2;Vidro
-2103014;SI;2;Tinta
-2103032;SI;2;Revestimento de piso e parede
 2103038;SI;2;Madeira e taco
-2103039;SI;2;Cimento
-2103040;SI;2;Tijolo
-2103041;SI;2;Material hidráulico
-2103042;SI;2;Mão de obra
-2103048;SI;2;Areia
-2103049;SI;2;Pedras
-2103055;SI;2;Telha
-2104;II;2;Artigos de limpeza
-2104003;SI;2;Saco para lixo
-2104005;SI;2;Água sanitária
-2104008;SI;2;Detergente
-2104009;SI;2;Sabão em pó
-2104012;SI;2;Desinfetante
-2104015;SI;2;Sabão em barra
-2104016;SI;2;Esponja de limpeza
 2104019;SI;2;Sabão líquido
-2104020;SI;2;Limpador multiuso
-2104041;SI;2;Papel toalha
 2104085;SI;2;Amaciante e alvejante
-22;SG;2;Combustíveis e energia
-2201;II;2;Combustíveis (domésticos)
-2201003;SI;2;Carvão vegetal
-2201004;SI;2;Gás de botijão
-2201005;SI;2;Gás encanado
-2202;II;2;Energia elétrica residencial
-2202003;SI;2;Energia elétrica residencial
-3;GG;3;Artigos de residência
-31;SG;3;Móveis e utensílios
-3101;II;3;Mobiliário
-3101002;SI;3;Móvel para sala
-3101003;SI;3;Móvel para quarto
-3101015;SI;3;Móvel para copa e cozinha
-3101016;SI;3;Móvel infantil
-3101017;SI;3;Colchão
-3102;II;3;Utensílios e enfeites
 3102001;SI;3;Artigos de iluminação
-3102005;SI;3;Tapete
-3102006;SI;3;Cortina
-3102007;SI;3;Utensílios de metal
-3102009;SI;3;Utensílios de vidro e louça
-3102010;SI;3;Utensílios de plástico
-3102035;SI;3;Flores naturais
 3102337;SI;3;Utensílios para bebê
-3103;II;3;Cama, mesa e banho
-3103001;SI;3;Roupa de cama
-3103003;SI;3;Roupa de banho
-32;SG;3;Aparelhos eletroeletrônicos
-3201;II;3;Eletrodomésticos e equipamentos
-3201001;SI;3;Refrigerador
-3201002;SI;3;Ar-condicionado
-3201006;SI;3;Máquina de lavar roupa
-3201013;SI;3;Ventilador
-3201021;SI;3;Fogão
-3201050;SI;3;Chuveiro elétrico
-3202;II;3;Tv, som e informática
-3202001;SI;3;Televisor
-3202003;SI;3;Aparelho de som
-3202008;SI;3;Videogame (console)
-3202028;SI;3;Computador pessoal
-33;SG;3;Consertos e manutenção
-3301;II;3;Consertos e manutenção
-3301002;SI;3;Conserto de refrigerador
-3301006;SI;3;Conserto de televisor
-3301015;SI;3;Conserto de máquina de lavar roupa
-3301022;SI;3;Reforma de estofado
 3301088;SI;3;Conserto de aparelho celular
 3301130;SI;3;Conserto de bicicleta
-4;GG;4;Vestuário
-41;SG;4;Roupas
-4101;II;4;Roupa masculina
-4101002;SI;4;Calça comprida masculina
-4101005;SI;4;Agasalho masculino
-4101006;SI;4;Bermuda/short masculino
-4101008;SI;4;Cueca
-4101009;SI;4;Camisa/camiseta masculina
-4102;II;4;Roupa feminina
-4102002;SI;4;Calça comprida feminina
-4102003;SI;4;Agasalho feminino
-4102004;SI;4;Saia
-4102005;SI;4;Vestido
-4102008;SI;4;Blusa
-4102010;SI;4;Lingerie
-4102013;SI;4;Bermuda/short feminino
-4103;II;4;Roupa infantil
-4103001;SI;4;Uniforme escolar
-4103002;SI;4;Calça comprida infantil
-4103005;SI;4;Agasalho infantil
-4103007;SI;4;Vestido infantil
-4103008;SI;4;Bermuda/short infantil
-4103011;SI;4;Camisa/camiseta infantil
-4103031;SI;4;Conjunto infantil
-42;SG;4;Calçados e acessórios
-4201;II;4;Calçados e acessórios
-4201002;SI;4;Sapato masculino
-4201003;SI;4;Sapato feminino
-4201004;SI;4;Sapato infantil
-4201015;SI;4;Bolsa
 4201040;SI;4;Mochila
-4201063;SI;4;Tênis
 4201098;SI;4;Sandália/chinelo
-43;SG;4;Joias e bijuterias
-4301;II;4;Joias e bijuterias
-4301001;SI;4;Bijuteria
-4301002;SI;4;Joia
-4301004;SI;4;Relógio de pulso
-44;SG;4;Tecidos e armarinho
-4401;II;4;Tecidos e armarinho
-4401001;SI;4;Tecido
-4401002;SI;4;Artigos de armarinho
-5;GG;5;Transportes
-51;SG;5;Transportes
-5101;II;5;Transporte público
-5101001;SI;5;Ônibus urbano
-5101002;SI;5;Táxi
-5101004;SI;5;Trem
-5101006;SI;5;Ônibus intermunicipal
-5101007;SI;5;Ônibus interestadual
-5101010;SI;5;Passagem aérea
-5101011;SI;5;Metrô
-5101026;SI;5;Transporte escolar
 5101051;SI;5;Transporte por aplicativo
 5101053;SI;5;Integração transporte público
-5102;II;5;Veículo próprio
-5102001;SI;5;Automóvel novo
-5102004;SI;5;Emplacamento e licença
-5102005;SI;5;Seguro voluntário de veículo
-5102006;SI;5;Multa
-5102007;SI;5;Óleo lubrificante
-5102009;SI;5;Acessórios e peças
-5102010;SI;5;Pneu
-5102011;SI;5;Conserto de automóvel
-5102013;SI;5;Estacionamento
-5102015;SI;5;Pedágio
-5102020;SI;5;Automóvel usado
-5102037;SI;5;Pintura de veículo
-5102051;SI;5;Aluguel de veículo
-5102053;SI;5;Motocicleta
-5104;II;5;Combustíveis (veículos)
-5104001;SI;5;Gasolina
-5104002;SI;5;Etanol
-5104003;SI;5;Óleo diesel
-5104005;SI;5;Gás veicular
-6;GG;6;Saúde e cuidados pessoais
-61;SG;6;Produtos farmacêuticos e óticos
-6101;II;6;Produtos farmacêuticos
-6101001;SI;6;Anti-infeccioso e antibiótico
-6101002;SI;6;Analgésico e antitérmico
-6101003;SI;6;Anti-inflamatório e antirreumático
-6101004;SI;6;Antigripal e antitussígeno
-6101006;SI;6;Dermatológico
-6101007;SI;6;Antialérgico e broncodilatador
-6101009;SI;6;Gastroprotetor
-6101010;SI;6;Vitamina e fortificante
-6101011;SI;6;Hormonal
-6101013;SI;6;Psicotrópico e anorexígeno
-6101014;SI;6;Hipotensor e hipocolesterolêmico
-6101051;SI;6;Oftalmológico
-6101064;SI;6;Antidiabético
 6101148;SI;6;Neurológico
-6102;II;6;Produtos óticos
 6102012;SI;6;Óculos de grau
-62;SG;6;Serviços de saúde
-6201;II;6;Serviços médicos e dentários
-6201002;SI;6;Médico
-6201003;SI;6;Dentista
-6201005;SI;6;Aparelho ortodôntico
-6201007;SI;6;Fisioterapeuta
-6201010;SI;6;Psicólogo
-6202;II;6;Serviços laboratoriais e hospitalares
-6202003;SI;6;Exame de laboratório
-6202004;SI;6;Hospitalização e cirurgia
-6202006;SI;6;Exame de imagem
-6203;II;6;Plano de saúde
-6203001;SI;6;Plano de saúde
-63;SG;6;Cuidados pessoais
-6301;II;6;Higiene pessoal
-6301001;SI;6;Produto para cabelo
-6301002;SI;6;Fralda descartável
-6301004;SI;6;Produto para barba
-6301006;SI;6;Produto para pele
-6301007;SI;6;Produto para higiene bucal
-6301010;SI;6;Produto para unha
-6301011;SI;6;Perfume
-6301014;SI;6;Desodorante
-6301015;SI;6;Absorvente higiênico
-6301016;SI;6;Sabonete
-6301017;SI;6;Papel higiênico
-6301020;SI;6;Artigos de maquiagem
-7;GG;7;Despesas pessoais
-71;SG;7;Serviços pessoais
-7101;II;7;Serviços pessoais
-7101001;SI;7;Costureira
-7101005;SI;7;Manicure
-7101010;SI;7;Empregado doméstico
 7101011;SI;7;Cabeleireiro e barbeiro
-7101014;SI;7;Depilação
-7101034;SI;7;Cartório
-7101036;SI;7;Despachante
-7101076;SI;7;Serviço bancário
-7101090;SI;7;Conselho de classe
 7101144;SI;7;Sobrancelha
-72;SG;7;Recreação e fumo
-7201;II;7;Recreação
-7201006;SI;7;Clube
-7201010;SI;7;Instrumento musical
 7201015;SI;7;Tratamento de animais (clínica)
-7201019;SI;7;Bicicleta
-7201020;SI;7;Alimento para animais
-7201023;SI;7;Brinquedo
-7201054;SI;7;Casa noturna
-7201063;SI;7;Jogos de azar
 7201067;SI;7;Material de caça e pesca
-7201090;SI;7;Hospedagem
-7201095;SI;7;Pacote turístico
 7201256;SI;7;Serviço de higiene para animais
 7201266;SI;7;Cinema, teatro e concertos
-7202;II;7;Fumo
-7202041;SI;7;Cigarro
-8;GG;8;Educação
-81;SG;8;Cursos, leitura e papelaria
-8101;II;8;Cursos regulares
-8101001;SI;8;Creche
-8101002;SI;8;Pré-escola
-8101003;SI;8;Ensino fundamental
-8101004;SI;8;Ensino médio
-8101005;SI;8;Ensino superior
-8101006;SI;8;Pós-graduação
-8101008;SI;8;Educação de jovens e adultos
 8101045;SI;8;Curso técnico
-8102;II;8;Leitura
-8102001;SI;8;Jornal diário
-8102004;SI;8;Revista
 8102007;SI;8;Livro didático
 8102008;SI;8;Livro não didático
-8103;II;8;Papelaria
-8103001;SI;8;Caderno
-8103014;SI;8;Artigos de papelaria
-8104;II;8;Cursos diversos
-8104001;SI;8;Curso preparatório
-8104003;SI;8;Curso de idioma
-8104004;SI;8;Curso de informática
-8104005;SI;8;Autoescola
-8104006;SI;8;Atividades físicas
-9;GG;9;Comunicação
-91;SG;9;Comunicação
-9101;II;9;Comunicação
-9101001;SI;9;Correio
-9101002;SI;9;Plano de telefonia fixa
-9101008;SI;9;Plano de telefonia móvel
-9101010;SI;9;Tv por assinatura
-9101018;SI;9;Acesso à internet
-9101019;SI;9;Aparelho telefônico
 9101115;SI;9;Serviços de streaming
 9101116;SI;9;Combo de telefonia, internet e tv por assinatura
