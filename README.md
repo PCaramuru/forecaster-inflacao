@@ -5,7 +5,7 @@ INTRODUÇÂO
 
 O objetivo da aplicação é obter e processar os resultados do Índice de Preços ao Consumidor - Amplo (IPCA), por meio da API de serviço de dados divulgados pelo IBGE (https://servicodados.ibge.gov.br/api/docs/), em tempo real, assim que as informações são disponibilizadas. A aplicação também oferece a base para aplicações de inferência estatística de inflação e de projeção de resultados.
 
-Os dados escolhidos para coleta são referentes à variação mensal de preços dos subitens, itens, subgrupos, grupos e índice geral, bem como o peso de cada um deles para a formação das médias ponderadas aninhadas (as médias dos subitens formam os índices dos itens, as médias dos itens formam os subgrupos, sucessivamente...). Estes representam a maior sequência histórica ininterrupta de dados que compõem o índice oficial de inflação - desde 1989 -, e, portanto, muito valiosa para o treinamento de modelos de aprendizagem. Ainda assim, a sua aplicação para modelos estatísticos univariados deve ser aplicada com cautela, uma vez que levantamentos multivariados podem ser capazes de apresentar resultados mais precisos. 
+Os dados escolhidos para coleta são referentes à variação mensal de preços dos subitens, itens, subgrupos, grupos e índice geral, bem como o peso de cada um deles para a formação das médias ponderadas aninhadas (as médias dos subitens formam os índices dos itens, as médias dos itens formam os subgrupos, sucessivamente...). Estes representam a maior sequência histórica ininterrupta de dados que compõem o índice oficial de inflação - desde 1989 -, e, portanto, aplicável ao treinamento de modelos de aprendizagem.
 
 Para isso, a aplicação se debruça sobre duas etapas: capturar os dados que já foram divulgados e atualizar a base de dados conforme novas pesquisas forem divulgadas. Para facilitar a reprodutibilidade, a escolha feita foi por inscrever os dados em um arquivo .csv, em detrimento de um banco SQL, ainda que a adaptação garantiria maior agilidade e melhor gestão dos dados.
 
@@ -18,8 +18,6 @@ A primeira inicialização do banco de dados é a mais demorada uma vez que as r
 Os resultados são inscritos em um arquivo .csv que utiliza "." como separador de decimais e ";" como delimitador de células.
 
 O encoding do arquivo .csv é "latin1" para facilitar o uso de acentos e "ç". 
-
-Para os scripts estatísticos disponibilizados para o RStudio, convém executar primeiro o projeto (.Rproj) e depois o script em R.
 
 COMO FUNCIONA
 
