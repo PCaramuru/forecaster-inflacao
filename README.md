@@ -13,7 +13,7 @@ ORIENTAÇÕES
 
 A inicialização deve ser feita a partir do script main.py que importa e reúne as bibliotecas necessárias para a coleta e armazenamento de dados.
 
-A primeira inicialização do banco de dados é a mais demorada uma vez que as requisições à API são feitas mês a mês. A fim de se garantir mais agilidade, dados já tratados e organizados foram disponibilizados até o mês de abril de 2024 nas tabelas IPCA_long.csv e master_IPCA.csv.
+A primeira inicialização do banco de dados é a mais demorada uma vez que as requisições à API são feitas mês a mês. A fim de se garantir mais agilidade, dados já tratados e organizados foram disponibilizados até o mês de abril de 2024 nos arquivos IPCA_long.csv e master_IPCA.csv.
 
 Os resultados são inscritos em um arquivo .csv que utiliza "." como separador de decimais e ";" como delimitador de células.
 
@@ -21,9 +21,9 @@ O encoding do arquivo .csv é "latin1" para facilitar o uso de acentos e "ç".
 
 COMO FUNCIONA
 
-1. A aplicação confere se as tabelas já existem dentro do caminho especificado. Caso já existam, a aplicação pula para o passo 3b. Caso não existam, a aplicação cria o cabeçalho necessário para os dados e começa a buscar as divulgações de agregados (pesquisas de preços) anteriores à atual que já tenham sido encerradas ou que passaram por mudanças.
-   a. A tabela master_IPCA.csv reúne as informações de cada um dos subitens, itens, subgrupos, grupos e índice geral divididos por tipo, nome, categoria a que pertecem, e id - usado como identificador único.
-   b. Já a tabela IPCA_long.csv é responsável por reunir os resultados da variação mensal e do peso para cálculo da média ponderada de cada item pesquisado em determinado mês. Cada linha da tabela IPCA_long.csv tem usa como identificador único o par de colunas "id" e "mês de referência".
+1. A aplicação confere se os arquivos já existem dentro do caminho especificado. Caso já existam, a aplicação pula para o passo 3b. Caso não existam, a aplicação cria o cabeçalho necessário para os dados e começa a buscar as divulgações de agregados (pesquisas de preços) anteriores à atual que já tenham sido encerradas ou que passaram por mudanças.
+   a. O arquivo master_IPCA.csv reúne as informações de cada um dos subitens, itens, subgrupos, grupos e índice geral divididos por tipo, nome, categoria a que pertecem, e id - usado como identificador único.
+   b. Já o arquivo IPCA_long.csv é responsável por reunir os resultados da variação mensal e do peso para cálculo da média ponderada de cada item pesquisado em determinado mês. Cada linha do arquivo IPCA_long.csv tem usa como identificador único o par de colunas "id" e "mês de referência".
 
 2. O primeiro agregado a ser incluida é a série 1692, de julho de 1989 a dezembro de 1990, na sequência, aparecem o 58, de janeiro de 1991 a julho de 1999, depois o 655, de agosto de 1999 até junho de 2006, o agregado 2938, de jul/2006 a dez/2011, e, na sequência, a série 1419, de jan/2012 a dez/2019. Os dados são incluídos no banco de dados em formato de painel longo a fim de garantir a sua utilização tanto em programas de datavis (como PowerBI e Flourish), quanto de análise estatística (RStudio).
 	a. Apesar da amplitude de dados, para fins econômicos convém utilizar os dados a partir do ano de 1993, quando há a transição para o plano Real e maior estabilidade de preços.
@@ -32,7 +32,7 @@ COMO FUNCIONA
 	a. A fim de acessar somente os dados faltantes necessários, a aplicação realiza um novo acesso à API de calendário de divulgação de pesquisas para de computar quais divulgações feitas não estão presentes no banco de dados. As informações do calendário são salvas em um arquivo auxiliar (./tabelas/temps/calendario_ipca.csv)
 	b. A aplicação gera uma lista de meses faltantes e itera cada um deles para acessar a respectiva query URL.
 
-5. Os dados obtidos são acrescentados ao fim da tabela IPCA_long.csv. Ao longo do código, caso haja a inclusão de novos itens na cesta de compras ideal dos brasileiros - segundo Pesquisa do Orçamento Familiar - novos ids são acrescentados ao fim da tabela master_IPCA.csv.
+5. Os dados obtidos são acrescentados ao fim do arquivo IPCA_long.csv. Ao longo do código, caso haja a inclusão de novos itens na cesta de compras ideal dos brasileiros - segundo Pesquisa do Orçamento Familiar - novos ids são acrescentados ao fim do arquivo master_IPCA.csv.
 
 CHANGELOG
 
@@ -52,4 +52,4 @@ ROADMAP
 Nos próximos updates, gostaria de incluir:
 *Coluna para o acumulado em 12 meses de cada item
 *Regionalização por cidade ou região metropolitana
-*Indexação de cada linha da tabela IPCA_long.csv
+*Indexação de cada linha do arquivo IPCA_long.csv
